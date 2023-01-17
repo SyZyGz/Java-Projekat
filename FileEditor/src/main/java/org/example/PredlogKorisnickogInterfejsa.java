@@ -8,10 +8,12 @@ public class PredlogKorisnickogInterfejsa extends JDialog {
     private JButton buttonClose;
     private JButton buttonSave;
     private JButton buttonOpen;
-    private JButton buttonGetSelection;
+    private JButton buttonGetSelectionTop;
     private JTextArea textAreaTop;
     private JTextArea textAreaBottom;
     private JTextArea textAreaNew;
+    private JButton buttonGetSelectionBot;
+    private JButton buttonOpenBot;
 
     public PredlogKorisnickogInterfejsa() {
         setContentPane(contentPane);
